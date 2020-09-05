@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EAB4D692503D08300B09763 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB4D682503D08300B09763 /* TextView.swift */; };
 		2EF6952024C5CE8600C07ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6951F24C5CE8600C07ABB /* AppDelegate.swift */; };
 		2EF6952224C5CE8600C07ABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6952124C5CE8600C07ABB /* SceneDelegate.swift */; };
 		2EF6952424C5CE8600C07ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6952324C5CE8600C07ABB /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EAB4D682503D08300B09763 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = ../../../Final/QuestionAnswering/QuestionAnswering/TextView.swift; sourceTree = "<group>"; };
 		2EF6951C24C5CE8600C07ABB /* QuestionAnswering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionAnswering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF6951F24C5CE8600C07ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EF6952124C5CE8600C07ABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				2EF6951F24C5CE8600C07ABB /* AppDelegate.swift */,
 				2EF6952124C5CE8600C07ABB /* SceneDelegate.swift */,
 				2EF6952324C5CE8600C07ABB /* ContentView.swift */,
+				2EAB4D682503D08300B09763 /* TextView.swift */,
 				2EF6952524C5CE8A00C07ABB /* Assets.xcassets */,
 				2EF6952A24C5CE8A00C07ABB /* LaunchScreen.storyboard */,
 				2EF6952D24C5CE8A00C07ABB /* Info.plist */,
@@ -195,6 +198,7 @@
 				2EF6953C24C5CF5700C07ABB /* BERTInput.swift in Sources */,
 				2EF6954024C5CF5700C07ABB /* BERTVocabulary.swift in Sources */,
 				2EF6953B24C5CF5700C07ABB /* BERT.swift in Sources */,
+				2EAB4D692503D08300B09763 /* TextView.swift in Sources */,
 				2EF6954124C5CF5700C07ABB /* TokenizedString.swift in Sources */,
 				2EF6952424C5CE8600C07ABB /* ContentView.swift in Sources */,
 			);

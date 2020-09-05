@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2EAB4D652503C41700B09763 /* BERTQAFP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB4D642503C41700B09763 /* BERTQAFP16.mlmodel */; };
+		2EAB4D672503CEE000B09763 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAB4D662503CEE000B09763 /* TextView.swift */; };
 		2EF6952024C5CE8600C07ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6951F24C5CE8600C07ABB /* AppDelegate.swift */; };
 		2EF6952224C5CE8600C07ABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6952124C5CE8600C07ABB /* SceneDelegate.swift */; };
 		2EF6952424C5CE8600C07ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6952324C5CE8600C07ABB /* ContentView.swift */; };
@@ -20,13 +20,12 @@
 		2EF6953F24C5CF5700C07ABB /* BERTOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6953824C5CF5700C07ABB /* BERTOutput.swift */; };
 		2EF6954024C5CF5700C07ABB /* BERTVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6953924C5CF5700C07ABB /* BERTVocabulary.swift */; };
 		2EF6954124C5CF5700C07ABB /* TokenizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6953A24C5CF5700C07ABB /* TokenizedString.swift */; };
-		2EF6954324C5D01400C07ABB /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6954224C5D01400C07ABB /* TextView.swift */; };
 		2EF6954724C5D9A000C07ABB /* ACKNOWLEDGMENTS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6954524C5D9A000C07ABB /* ACKNOWLEDGMENTS.txt */; };
 		2EF6954824C5D9A000C07ABB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6954624C5D9A000C07ABB /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2EAB4D642503C41700B09763 /* BERTQAFP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = BERTQAFP16.mlmodel; path = ../../../../../BERTQAFP16.mlmodel; sourceTree = "<group>"; };
+		2EAB4D662503CEE000B09763 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		2EF6951C24C5CE8600C07ABB /* QuestionAnswering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionAnswering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF6951F24C5CE8600C07ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EF6952124C5CE8600C07ABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +40,6 @@
 		2EF6953824C5CF5700C07ABB /* BERTOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BERTOutput.swift; sourceTree = "<group>"; };
 		2EF6953924C5CF5700C07ABB /* BERTVocabulary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BERTVocabulary.swift; sourceTree = "<group>"; };
 		2EF6953A24C5CF5700C07ABB /* TokenizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenizedString.swift; sourceTree = "<group>"; };
-		2EF6954224C5D01400C07ABB /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		2EF6954524C5D9A000C07ABB /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
 		2EF6954624C5D9A000C07ABB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,7 +79,7 @@
 				2EF6951F24C5CE8600C07ABB /* AppDelegate.swift */,
 				2EF6952124C5CE8600C07ABB /* SceneDelegate.swift */,
 				2EF6952324C5CE8600C07ABB /* ContentView.swift */,
-				2EF6954224C5D01400C07ABB /* TextView.swift */,
+				2EAB4D662503CEE000B09763 /* TextView.swift */,
 				2EF6952524C5CE8A00C07ABB /* Assets.xcassets */,
 				2EF6952A24C5CE8A00C07ABB /* LaunchScreen.storyboard */,
 				2EF6952D24C5CE8A00C07ABB /* Info.plist */,
@@ -101,7 +99,6 @@
 		2EF6953324C5CF5700C07ABB /* Bert */ = {
 			isa = PBXGroup;
 			children = (
-				2EAB4D642503C41700B09763 /* BERTQAFP16.mlmodel */,
 				2EF6953424C5CF5700C07ABB /* BERT.swift */,
 				2EF6953524C5CF5700C07ABB /* BERTInput.swift */,
 				2EF6953724C5CF5700C07ABB /* bert-base-uncased-vocab.txt */,
@@ -201,10 +198,9 @@
 				2EF6953C24C5CF5700C07ABB /* BERTInput.swift in Sources */,
 				2EF6954024C5CF5700C07ABB /* BERTVocabulary.swift in Sources */,
 				2EF6953B24C5CF5700C07ABB /* BERT.swift in Sources */,
-				2EAB4D652503C41700B09763 /* BERTQAFP16.mlmodel in Sources */,
 				2EF6954124C5CF5700C07ABB /* TokenizedString.swift in Sources */,
 				2EF6952424C5CE8600C07ABB /* ContentView.swift in Sources */,
-				2EF6954324C5D01400C07ABB /* TextView.swift in Sources */,
+				2EAB4D672503CEE000B09763 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

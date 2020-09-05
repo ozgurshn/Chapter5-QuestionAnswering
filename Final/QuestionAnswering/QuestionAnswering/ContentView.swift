@@ -24,11 +24,11 @@ struct ContentView: View {
     
     var body: some View {
         VStack
-            {
-                TextView(attributedText: $attributedText)
-                TextField("Enter your question",text:$question)
-                
-                HStack{
+        {
+            TextView(attributedText: $attributedText)
+            TextField("Enter your question",text:$question)
+            
+            HStack{
                 Button(action: {
                     // Run the search in the background to keep the UI responsive.
                     DispatchQueue.global(qos: .userInitiated).async {
@@ -59,8 +59,8 @@ struct ContentView: View {
                         self.question = speechText
                     }
                 }){Text("Speak")}
-                    
-                }
+                
+            }
         }.onAppear{
             self.requestTranscribePermissions()
         }

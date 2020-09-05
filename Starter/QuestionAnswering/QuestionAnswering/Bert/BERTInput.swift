@@ -43,18 +43,14 @@ struct BERTInput {
         guard totalTokenSize < BERTInput.maxTokens else {
             return
         }
-        
         // Start the wordID array with the `classification start` token.
         var wordIDs = [BERTVocabulary.classifyStartTokenID]
-        
         // Add the question tokens and a separator.
         wordIDs += question.tokenIDs
         wordIDs += [BERTVocabulary.separatorTokenID]
-        
         // Add the document tokens and a separator.
         wordIDs += document.tokenIDs
         wordIDs += [BERTVocabulary.separatorTokenID]
-        
         // Fill the remaining token slots with padding tokens.
         let tokenIDPadding = BERTInput.maxTokens - wordIDs.count
         wordIDs += Array(repeating: BERTVocabulary.paddingTokenID, count: tokenIDPadding)
